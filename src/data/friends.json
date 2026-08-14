@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "david.kim@example.com",
+    "days_since_contact": 62,
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "We worked together on several projects and still catch up from time to time.",
+    "goal": 60,
+    "next_due_date": "2026-08-20"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "emma.wilson@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "A former college friend who has always been a thoughtful and supportive person.",
+    "goal": 30,
+    "next_due_date": "2026-07-30"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "lisa.nakamura@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "We became friends through work and often share ideas about books, travel, and life.",
+    "goal": 45,
+    "next_due_date": "2026-07-28"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+    "email": "james.wright@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["hobby", "travel"],
+    "bio": "A close travel buddy who is always ready for a new adventure.",
+    "goal": 30,
+    "next_due_date": "2026-07-25"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Chen",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "sarah.chen@example.com",
+    "days_since_contact": 18,
+    "status": "on-track",
+    "tags": ["college"],
+    "bio": "We studied together in college and still make time for coffee and long conversations.",
+    "goal": 30,
+    "next_due_date": "2026-08-26"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "olivia.martinez@example.com",
+    "days_since_contact": 24,
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "A warm and dependable friend who loves cooking and trying new restaurants.",
+    "goal": 30,
+    "next_due_date": "2026-08-20"
+  },
+  {
+    "id": 7,
+    "name": "Aisha Patel",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "aisha.patel@example.com",
+    "days_since_contact": 38,
+    "status": "almost due",
+    "tags": ["work", "travel"],
+    "bio": "We met through a professional event and became friends over our shared love of travel.",
+    "goal": 45,
+    "next_due_date": "2026-08-22"
+  },
+  {
+    "id": 8,
+    "name": "Marcus Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "marcus.johnson@example.com",
+    "days_since_contact": 12,
+    "status": "on-track",
+    "tags": ["hobby"],
+    "bio": "A longtime friend who enjoys photography, music, and weekend cycling.",
+    "goal": 30,
+    "next_due_date": "2026-09-01"
+  },
+  {
+    "id": 9,
+    "name": "Ryan O'Brien",
+    "picture": "https://randomuser.me/api/portraits/men/22.jpg",
+    "email": "ryan.obrien@example.com",
+    "days_since_contact": 47,
+    "status": "almost due",
+    "tags": ["college", "travel"],
+    "bio": "A university friend who loves spontaneous trips and catching up over coffee.",
+    "goal": 45,
+    "next_due_date": "2026-08-14"
+  },
+  {
+    "id": 10,
+    "name": "Tom Baker",
+    "picture": "https://randomuser.me/api/portraits/men/61.jpg",
+    "email": "tom.baker@example.com",
+    "days_since_contact": 76,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "A former teammate who has remained a good friend after we moved to different teams.",
+    "goal": 60,
+    "next_due_date": "2026-07-29"
+  }
+]
