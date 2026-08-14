@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import FriendsSection from '@/components/FriendsSection'
 import Hero from '@/components/Hero'
 import SummarySection from '@/components/SummarySection'
@@ -8,6 +9,7 @@ const Homepage = () => {
         <Hero></Hero>
       <SummarySection></SummarySection>
       <FriendsSection></FriendsSection>
+      <Footer></Footer>
     </div>
   )
 }
