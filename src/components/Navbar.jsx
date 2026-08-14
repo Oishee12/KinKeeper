@@ -28,8 +28,8 @@ const Navbar = () => {
             <div className="container mx-auto lg:flex lg:justify-between lg:items-center lg:gap-4">
                 {/* logo */}
                 <Link href="/"
-                    className="text-lg font-bold tracking-tight text-slate-800">
-                        Kin<span className="text-emerald-800">Keeper</span>
+                    className="text-2xl font-bold tracking-tight text-slate-800">
+                        Keen<span className="text-emerald-800">Keeper</span>
                 </Link>
                 {/* Navigation */}
                 <div className="flex items-center gap-1 lg:gap-2">
@@ -39,7 +39,7 @@ const Navbar = () => {
                             const isActive = pathName === item.href;
 
                             return (
-                                <Link key={item.name} href={item.href} className={`flex items-center gap-1.5 rounded-md px-2 lg:px-3 py-2 text-sm text-slate-600transition hover:bg-emerald-50 hover:text-emerald-800 ${isActive ? "bg-emerald-900 text-white hover:bg-emerald-900 hover:text-white" : "text-slate-600 hover:bg-emerald-50 hover:text-emerald-800"}`}>
+                                <Link key={item.name} href={item.href} className={`flex items-center gap-1.5 rounded-md px-2 lg:px-3 py-2 text-base text-slate-600transition hover:bg-emerald-50 hover:text-emerald-800 ${isActive ? "bg-emerald-900 text-white hover:bg-emerald-900 hover:text-white" : "text-slate-600 hover:bg-emerald-50 hover:text-emerald-800"}`}>
                                     <Icon size={14}></Icon>
                                     <span>{item.name}</span>
                                 </Link>

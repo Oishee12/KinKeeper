@@ -24,28 +24,28 @@ function formatStatus(status){
 const FriendCard = ({friend}) => {
   return (
     <div className="card rounded-md border border-slate-200 bg-white shadow-sm">
-     <div  className="card-body items-center p-4 text-center">
+     <div className="card-body items-center p-7 text-center">
         <img src={friend.picture} alt={friend.name} 
-        className="h-10 w-10 rounded-full object-cover"/>
+        className="h-20 w-20 rounded-full object-cover"/>
 
-        <h3 className="mt-1 text-xs font-semibold text-slate-800">
+        <h2 className="mt-1 text-lg font-semibold text-slate-800">
             {friend.name}
-        </h3>
+        </h2>
 
-        <p className="text-[9px] text-slate-500">
+        <p className="text-[14px] text-slate-500">
           {friend.days_since_contact}d ago
         </p>
 
         <div>
             {friend.tags.map((tag) => (
-                <span key={tag} className="rounded-full bg-emerald-100 px-2 py-0.5 text-[8px] font-medium text-emerald-800">
+                <span key={tag} className="rounded-full bg-emerald-100 px-2 py-0.5 text-[14px] font-medium text-emerald-800">
                     {tag.toUpperCase()}
                 </span>
             ))}
         </div>
 
         <span
-          className={`mt-0.5 rounded-full px-2 py-0.5 text-[8px] font-medium ${getStatusStyle(
+          className={`mt-0.5 rounded-full px-2 py-0.5 text-[14px] font-medium ${getStatusStyle(
             friend.status
           )}`}
         >

@@ -9,7 +9,7 @@ const Hero = () => {
           Friends to keep close in your life
         </h1>
 
-<p className="mx-auto mt-3 max-w-xl text-xs leading-relaxed text-slate-500 sm:text-sm">
+<p className="mx-auto mt-3 max-w-xl text-lg leading-relaxed text-slate-500">
           Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
         </p>
 

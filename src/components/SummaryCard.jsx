@@ -5,7 +5,7 @@ const SummaryCard = ({ value, title}) => {
 
                 <h2 className="text-3xl font-bold text-slate-800">{value}</h2>
 
-                <p className="font-medium text-slate-700">
+                <p className="text-base font-medium text-slate-700">
                     {title}
                 </p>
             </div>

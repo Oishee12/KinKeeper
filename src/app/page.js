@@ -1,3 +1,4 @@
+import FriendsSection from '@/components/FriendsSection'
 import Hero from '@/components/Hero'
 import SummarySection from '@/components/SummarySection'
 
@@ -6,6 +7,7 @@ const Homepage = () => {
       <div className='min-h-screen bg-slate-50'>
         <Hero></Hero>
       <SummarySection></SummarySection>
+      <FriendsSection></FriendsSection>
     </div>
   )
 }
