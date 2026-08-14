@@ -25,11 +25,11 @@ const Navbar = () => {
     const pathName = usePathname();
     return (
         <div className="navbar min-h-16 border-b border-gray-200 bg-white px-4 lg:px-6">
-            <div className="container mx-auto flex justify-between items-center gap-4">
+            <div className="container mx-auto lg:flex lg:justify-between lg:items-center lg:gap-4">
                 {/* logo */}
                 <Link href="/"
                     className="text-lg font-bold tracking-tight text-slate-800">
-                    Kin<span className="text-emerald-800">Keeper</span>
+                        Kin<span className="text-emerald-800">Keeper</span>
                 </Link>
                 {/* Navigation */}
                 <div className="flex items-center gap-1 lg:gap-2">
