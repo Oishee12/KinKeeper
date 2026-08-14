@@ -14,14 +14,6 @@ html{
   scroll-behavior: smooth;
 }
 
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   margin: 0;
   background: var(--background);
