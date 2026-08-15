@@ -49,11 +49,11 @@ const existingEntries = JSON.parse(
   }
   return (
     <div className="mt-4 rounded-md border border-slate-200 bg-white p-4 shadow-sm">
-        <h2 className="text-lg text-emerald-800">
+        <h2 className="text-lg text-emerald-800 text-center lg:text-start">
         Quick Check-In
       </h2>
 
-      <div className="mt-3 grid grid-cols-3 gap-2">
+      <div className="mt-3 grid lg:grid-cols-3 gap-2">
         {
             checkInOptions.map((option) => {
                 const Icon = option.icon;

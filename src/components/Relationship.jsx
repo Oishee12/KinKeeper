@@ -3,7 +3,7 @@
 const RelationshipGoal = ({friend}) => {
   return (
     <div className="mt-4 rounded-md border border-slate-200 bg-white p-4 shadow-sm mb-7">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col lg:flex-row items-center justify-between">
          <div>
           <p className="text-lg font-medium text-emerald-800">
             Relationship Goal

@@ -66,8 +66,8 @@ const FriendDetailsPage = async ({ params }) => {
                 <Link href="/" className="mb-6 inline-block text-base font-medium text-emerald-800 hover:underline">← Back to Friends
                 </Link>
 
-<div className="grid gap-4 grid-cols-1 lg:grid-cols-5">
-      <section className="lg:col-span-2 rounded-md border border-slate-200 bg-white p-5 shadow-sm">
+<div className="grid gap-2 lg:gap-4 grid-cols-1 lg:grid-cols-5">
+      <section className="lg:col-span-2 rounded-md border border-slate-200 bg-white p-2 lg:p-5 shadow-sm">
                     <div className="flex flex-col items-center gap-4">
                         <img src={friend.picture} alt={friend.name} className="h-20 w-20 rounded-full object-cover"></img>
                         <div className="text-center">
