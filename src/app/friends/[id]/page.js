@@ -113,7 +113,7 @@ const FriendDetailsPage = async ({ params }) => {
                     <FriendStats friend={friend}>
                     </FriendStats>
                     <RelationshipGoal friend={friend}></RelationshipGoal>
-                    <QuickCheckIn></QuickCheckIn>
+                    <QuickCheckIn friend={friend}></QuickCheckIn>
                 </div>
 
 </div>
