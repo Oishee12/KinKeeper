@@ -1,4 +1,5 @@
 import FriendStats from "@/components/FriendStats";
+import RelationshipGoal from "@/components/Relationship";
 import friends from "@/data/friends.json"
 import Link from "next/link";
 
@@ -108,8 +109,8 @@ const FriendDetailsPage = async ({ params }) => {
                 </section>
                 <div className="lg:col-span-3">
                     <FriendStats friend={friend}>
-
                     </FriendStats>
+                    <RelationshipGoal friend={friend}></RelationshipGoal>
                 </div>
 </div>
             </div>
