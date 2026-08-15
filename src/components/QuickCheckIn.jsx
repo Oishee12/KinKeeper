@@ -18,7 +18,7 @@ const checkInOptions = [
 const QuickCheckIn = () => {
   return (
     <div className="mt-4 rounded-md border border-slate-200 bg-white p-4 shadow-sm">
-        <h2 className="text-lg font-semibold text-slate-800">
+        <h2 className="text-lg text-emerald-800">
         Quick Check-In
       </h2>
 

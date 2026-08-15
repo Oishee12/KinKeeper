@@ -67,11 +67,11 @@ const FriendDetailsPage = async ({ params }) => {
                 </Link>
 
 <div className="grid gap-4 grid-cols-1 lg:grid-cols-5">
-      <section className="rounded-md border border-slate-200 bg-white p-5 shadow-sm lg:col-span-2">
-                    <div className="flex flex-col items-center gap-4 ">
-                        <img src={friend.picture} alt={friend.name} className="h-24 w-24 rounded-full object-cover"></img>
+      <section className="lg:col-span-2 rounded-md border border-slate-200 bg-white p-5 shadow-sm">
+                    <div className="flex flex-col items-center gap-4">
+                        <img src={friend.picture} alt={friend.name} className="h-20 w-20 rounded-full object-cover"></img>
                         <div className="text-center">
-                            <h1 className="text-2xl font-bold text-slate-800">
+                            <h1 className="text-lg lg:text-2xl font-semibold text-slate-800">
                                 {friend.name}
                             </h1>
                             <div className="mt-2 flex flex-wrap justify-center gap-2 mb-3">
@@ -92,28 +92,30 @@ const FriendDetailsPage = async ({ params }) => {
                                 {friend.email}
                             </p>
                         </div>
-                    </div>
+                    </div>  
 
-                    <div className="mt-6 flex flex-wrap gap-2 border-t border-slate-100 pt-5">
-                        <button className="btn btn-sm rounded-md border-0 bg-emerald-900 text-white hover:bg-emerald-800">
+                    <div className="flex justify-around mt-1 flex-wrap gap-2 border-t border-slate-100 pt-5">
+                        <button className="btn btn-md rounded-md border border-slate-200 bg-white text-slate-700 hover:bg-slate-50">
                             Snooze 2 Weeks
                         </button>
 
-                        <button className="btn btn-sm rounded-md border border-slate-200 bg-white text-slate-700 hover:bg-slate-50">
+                        <button className="btn btn-md rounded-md border border-slate-200 bg-white text-slate-700 hover:bg-slate-50">
                             Archive
                         </button>
 
-                        <button className="btn btn-sm rounded-md border border-red-200 bg-white text-red-600 hover:bg-red-50">
+                        <button className="btn btn-md rounded-md border border-red-200 bg-white text-red-600 hover:bg-red-50">
                             Delete
                         </button>
-                    </div>
+                    </div>           
                 </section>
+                
                 <div className="lg:col-span-3">
                     <FriendStats friend={friend}>
                     </FriendStats>
                     <RelationshipGoal friend={friend}></RelationshipGoal>
                     <QuickCheckIn></QuickCheckIn>
                 </div>
+
 </div>
             </div>
         </main>
