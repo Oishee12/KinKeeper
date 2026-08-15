@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function getStatusStyle(status){
     switch (status){
         case "overdue":
@@ -23,7 +25,8 @@ function formatStatus(status){
 }
 const FriendCard = ({friend}) => {
   return (
-    <div className="card rounded-md border border-slate-200 bg-white shadow-sm">
+    <Link 
+    href={`/friends/${friend.id }`} className="card rounded-md border border-slate-200 bg-white shadow-sm">
      <div className="card-body items-center p-7 text-center">
         <img src={friend.picture} alt={friend.name} 
         className="h-20 w-20 rounded-full object-cover"/>
@@ -52,7 +55,7 @@ const FriendCard = ({friend}) => {
           {formatStatus(friend.status)}
         </span>
     </div>   
-    </div>
+    </Link>
   )
 }
 
