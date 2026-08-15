@@ -1,3 +1,4 @@
+import FriendStats from "@/components/FriendStats";
 import friends from "@/data/friends.json"
 import Link from "next/link";
 
@@ -63,8 +64,9 @@ const FriendDetailsPage = async ({ params }) => {
                 <Link href="/" className="mb-6 inline-block text-base font-medium text-emerald-800 hover:underline">← Back to Friends
                 </Link>
 
-                <section className="rounded-md border border-slate-200 bg-white p-5 shadow-sm">
-                    <div className="flex flex-col items-center gap-4">
+<div className="grid gap-4 grid-cols-1 lg:grid-cols-5">
+      <section className="rounded-md border border-slate-200 bg-white p-5 shadow-sm lg:col-span-2">
+                    <div className="flex flex-col items-center gap-4 ">
                         <img src={friend.picture} alt={friend.name} className="h-24 w-24 rounded-full object-cover"></img>
                         <div className="text-center">
                             <h1 className="text-2xl font-bold text-slate-800">
@@ -104,6 +106,12 @@ const FriendDetailsPage = async ({ params }) => {
                         </button>
                     </div>
                 </section>
+                <div className="lg:col-span-3">
+                    <FriendStats friend={friend}>
+
+                    </FriendStats>
+                </div>
+</div>
             </div>
         </main>
     )
